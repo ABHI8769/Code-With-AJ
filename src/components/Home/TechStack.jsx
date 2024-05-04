@@ -1,5 +1,6 @@
 import React from 'react'
 import java from '../../assets/Java.webp'
+import js from '../../assets/javascript.png'
 import react from '../../assets/react.jpg'
 import node from '../../assets/Node.png'
 import mongo from '../../assets/MognoDb.png'
@@ -131,6 +132,26 @@ export function TechStack() {
               <div className="absolute bottom-4 left-4">
                 <h1 className="text-xl font-semibold text-white">MYSQL</h1>
                 <h6 className="text-base text-white">Database</h6>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-center text-start">
+            <div
+              className="relative flex h-[342px] w-full flex-col justify-end rounded-[10px] bg-red-300"
+              style={{
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+              }}
+            >
+              <img
+                src={js}
+                alt=""
+                className="z-0 h-full w-full rounded-[10px] object-cover"
+              />
+              <div className="absolute bottom-4 left-4">
+                <h1 className="text-xl font-semibold text-white">JavaScript</h1>
+                <h6 className="text-base text-white">Scripting Language</h6>
               </div>
             </div>
           </div>
