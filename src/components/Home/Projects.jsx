@@ -1,4 +1,5 @@
 import React from 'react'
+import java from '../../assets/java.webp'
 
 export function Projects(props) {
   return (
@@ -17,7 +18,7 @@ export function Projects(props) {
         <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4"> 
             <div className="mx-auto w-[300px] rounded-md border">
               <img
-                src="https://www.analyticsinsight.net/wp-content/uploads/2022/09/Java-19-comes-with-an-open-source-twist-All-you-need-to-know.jpg"
+                src={java}
                 alt="Laptop"
                 className="h-[200px] w-full rounded-t-md object-cover"
               />
