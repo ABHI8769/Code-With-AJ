@@ -1,7 +1,7 @@
 import React from 'react'
-import java from '../../assets/java.webp'
+import java from '../../assets/Java.webp'
 
-export function Projects(props) {
+export function Projects() {
   return (
     <>
       <div className="mx-auto max-w-7xl px-2 lg:px-0">
